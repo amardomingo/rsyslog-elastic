@@ -1,4 +1,4 @@
-FROM debian:jessie-slim
+FROM debian:stretch-slim
 LABEL maintainer "Alberto Mardomingo <alberto.mardomingo@gmail.com>"
 
 RUN apt-get update && apt-get install -y rsyslog rsyslog-elasticsearch
